@@ -1,9 +1,18 @@
 # DLRN_App
 
+# Requirements
+for creating the DLRN app we used:
+
+    python == 3.10.9
+    TensorFlow 2.10 (Native Windows)
+
+We didn't try other versions.
+
+# Protocol
 The Deep Learning Reaction Network (DLRN) App is a user-friendly graphical interface that can be used to analyze
 time-resolved spectroscopy and agarose gel data sets. To use DLRN app, please follow the protocol:
 
-1) close the GitHub page using "git clone git@github.com:mem3nto0/DLRN_App.git" or downalod all the files in the repository
+1) close the GitHub page using "git clone git@github.com:mem3nto0/DLRN_App.git" or download all the files in the repository. It can take a few minutes due to the large files.
 2) unzip the pre-trained model files
 3) start the GUI using the command "python3 DLRN_GUI.py" in the prompt or using VScode.
 

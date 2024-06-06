@@ -11,8 +11,6 @@ for creating the DLRN app we used:
      TensorFlow 2.10 (Native Windows)
      pyqt5
 
-We didn't try other versions.
-
 # Protocol
 
 To use DLRN app, please follow this  protocol.

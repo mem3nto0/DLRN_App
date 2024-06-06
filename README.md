@@ -16,7 +16,7 @@ We didn't try other versions.
 
 To use DLRN app, please follow this  protocol.
 
-1)start with cloning the repository or download all the files in the repository. It can take few minutes for the Large files.
+1)start with cloning the repository or download all the files in the repository. It can take a few minutes for the Large files.
 
      git clone git@github.com:mem3nto0/DLRN_App.git
 

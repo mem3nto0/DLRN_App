@@ -16,9 +16,11 @@ We didn't try other versions.
 
 To use DLRN app, please follow this  protocol:
 
-1) close the GitHub page using "git clone git@github.com:mem3nto0/DLRN_App.git" or download all the files in the repository. It can take a few minutes due to the large files.
-2) unzip the pre-trained model files
-3) start the GUI using the command "python3 DLRN_GUI.py" in the prompt or using VScode.
+1) clone the GitHub page using:
+                   git clone git@github.com:mem3nto0/DLRN_App.git
+or download all the files in the repository. It can take a few minutes due to the large files.
+3) unzip the pre-trained model files
+4) start the GUI using the command "python3 DLRN_GUI.py" in the prompt or using VScode.
 
 After these three steps, a Graphic window will open and a few options can be selected:
 

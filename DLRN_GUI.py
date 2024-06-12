@@ -100,29 +100,29 @@ class MyWindow(QMainWindow):
         
         if selected_option == "Spectra":
             path = os.getcwd()
-            path_model = path + "/pretrained_model_Spectra/pretrained_model_Spectra/resV2_spectra_model"
+            path_model = path + "/pretrained_model_Spectra/resV2_spectra_model"
             model_model = tf.keras.models.load_model(path_model, custom_objects={'top_3_acc':top_3_acc})
             Global_variable.model_model = model_model
 
-            path_amp = path + "/pretrained_model_Spectra/pretrained_model_Spectra/resV2_spectra_amplitude"
+            path_amp = path + "/pretrained_model_Spectra/resV2_spectra_amplitude"
             model_amp = tf.keras.models.load_model(path_amp)
             Global_variable.model_amp = model_amp
 
-            path_tau = path + "/pretrained_model_Spectra/pretrained_model_Spectra/resV2_spectra_Tau"
+            path_tau = path + "/pretrained_model_Spectra/resV2_spectra_Tau"
             model_tau = tf.keras.models.load_model(path_tau)
             Global_variable.model_tau = model_tau
 
         if selected_option == "Agarose Gel": # to change for the GEL path
             path = os.getcwd()
-            path_model = path + "/pretrained_model_Gel/pretrained_model_Gel/resV2_GEL_takemodel"
+            path_model = path + "/pretrained_model_Gel/resV2_GEL_takemodel"
             model_model = tf.keras.models.load_model(path_model, custom_objects={'top_3_acc':top_3_acc})
             Global_variable.model_model = model_model
 
-            path_amp = path + "/pretrained_model_Gel/pretrained_model_Gel/resV2_GEL_takespectra+dilat"
+            path_amp = path + "/pretrained_model_Gel/resV2_GEL_takespectra+dilat"
             model_amp = tf.keras.models.load_model(path_amp)
             Global_variable.model_amp = model_amp
 
-            path_tau = path + "/pretrained_model_Gel/pretrained_model_Gel/resV2_GEL_Tau(MSE)"
+            path_tau = path + "/pretrained_model_Gel/resV2_GEL_Tau(MSE)"
             model_tau = tf.keras.models.load_model(path_tau)
             Global_variable.model_tau = model_tau
 

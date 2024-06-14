@@ -10,6 +10,8 @@ for creating the DLRN app we used:
      python == 3.10.9
      TensorFlow == 2.10 (Native Windows)
      pyqt5
+     scikit-image
+     matplotlib
 
 # Protocol
 
@@ -33,6 +35,8 @@ After these three steps, a Graphic window will open and a few options can be sel
     files can be loaded in the GUI.
 6.	(Optional) Is it possible to test the DLRN performance using the “Test DLRN” button. This allows the user to try a few ground truth data to check the performance. 
 7.	Click the “Data Analysis” button to start the analysis and obtain the DLRN analysis results. This can be done only after the compulsory steps (1–5) have been completed.
+
+# Collaboration
 
 This work is a collaboration partnership with the group of Prof. Dr. Susanne Gerber, Uni Medical Center, Mainz.
 

@@ -12,7 +12,8 @@ for creating the DLRN app we used:
      pyqt5
      scikit-image
      matplotlib
-
+     numpy
+     
 # Protocol
 
 To use DLRN app, please follow this  protocol.

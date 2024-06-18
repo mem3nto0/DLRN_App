@@ -51,7 +51,6 @@ Model (with probability confidence), amplitude, population profile, and residual
 Table of the kinetic time constants constant for each prediction. 
 ![DLRN graphic window3](figures/figure4_DLRN.png)
 
-The solution name can be found on name window of the figure before.
 
 # Collaboration
 

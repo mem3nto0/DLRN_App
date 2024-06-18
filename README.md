@@ -5,7 +5,7 @@ time-resolved spectroscopy and agarose gel data sets.
 
 # Requirements
 
-for creating the DLRN app we used:
+DLRN app was created using:
 
      python == 3.10.9
      TensorFlow == 2.10 (Native Windows)

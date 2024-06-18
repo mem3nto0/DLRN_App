@@ -119,11 +119,11 @@ class MyWindow(QMainWindow):
                 model_model = tf.keras.models.load_model(path_model, custom_objects={'top_3_acc':top_3_acc})
                 Global_variable.model_model = model_model
 
-                path_amp = path + "pretrained_model//pretrained_model/Spectra/resV2_spectra_amplitude" # 
+                path_amp = path + "/pretrained_model/pretrained_model/Spectra/resV2_spectra_amplitude" # 
                 model_amp = tf.keras.models.load_model(path_amp)
                 Global_variable.model_amp = model_amp
 
-                path_tau = path + "pretrained_model//pretrained_model/Spectra/resV2_spectra_Tau"
+                path_tau = path + "/pretrained_model/pretrained_model/Spectra/resV2_spectra_Tau"
                 model_tau = tf.keras.models.load_model(path_tau)
                 Global_variable.model_tau = model_tau
 

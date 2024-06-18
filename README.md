@@ -40,7 +40,16 @@ After these three steps, a Graphic window will open and a few options can be sel
 6.	(Optional) Is it possible to test the DLRN performance using the “Test DLRN” button. This allows the user to try a few ground truth data to check the performance. 
 7.	Click the “Data Analysis” button to start the analysis and obtain the DLRN analysis results. This can be done only after the compulsory steps (1–5) have been completed.
 
-Belo
+After clicking Data Analysis, new windows will be open. These new windows will show the DLRN solutions. Below is an example of when Top1 is selected. If Top3 is selected instead, Three solutions will be open.
+
+One-hot encoding solution from DLRN. it gives you an idea of the confidence of the output.
+![DLRN graphic window1](figures/figure2_DLRN.png)
+
+Model prediction (with probability confidence), amplitude prediction, population profile of the prediction, and residuals obtained by DLRN analysis.
+![DLRN graphic window2](figures/figure3_DLRN.png)
+
+Table of the kinetic time constants constant for each prediction. The solution name can be found on name window of the figure before.
+![DLRN graphic window3](figures/figure4_DLRN.png)
 
 
 # Collaboration

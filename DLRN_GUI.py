@@ -144,7 +144,6 @@ class MyWindow(QMainWindow):
                 Global_variable.model_tau = model_tau
 
             except:
-
                 path_model = path + "pretrained_model//pretrained_model/Gel/resV2_GEL_takemodel"
                 model_model = tf.keras.models.load_model(path_model, custom_objects={'top_3_acc':top_3_acc})
                 Global_variable.model_model = model_model

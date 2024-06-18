@@ -27,7 +27,7 @@ To use DLRN app, please follow this  protocol.
 
 After these three steps, a Graphic window will open and a few options can be selected:
 
-![DLRN graphic window](figures/DLRN_figure1.png)
+![DLRN graphic window](figures/figure1_DLRN.png)
 
 
 1.	Select Spectra or Agarose Gel from the first set of options. This will load the pre-trained DLRN model for the respective scenario. This can take a few minutes.

@@ -27,6 +27,9 @@ To use DLRN app, please follow this  protocol.
 
 After these three steps, a Graphic window will open and a few options can be selected:
 
+![DLRN graphic window](figures/DLRN_figure1.png)
+
+
 1.	Select Spectra or Agarose Gel from the first set of options. This will load the pre-trained DLRN model for the respective scenario. This can take a few minutes.
 2.	 Select Top 1 or Top 3 from the second set of options. This will change the analysis output, giving the solution for either the most probable output or the three most probable outputs.
 3.	Select the scale factor (suggested value = 1). This rescales the timescale to let DLRN analyze data sets with a time window larger than one timescale. However, using a large value for the scale factor can change the     
@@ -36,6 +39,8 @@ After these three steps, a Graphic window will open and a few options can be sel
     files can be loaded in the GUI.
 6.	(Optional) Is it possible to test the DLRN performance using the “Test DLRN” button. This allows the user to try a few ground truth data to check the performance. 
 7.	Click the “Data Analysis” button to start the analysis and obtain the DLRN analysis results. This can be done only after the compulsory steps (1–5) have been completed.
+
+Belo
 
 
 # Collaboration

@@ -48,9 +48,10 @@ One-hot encoding solution from DLRN. it gives you an idea of the confidence of t
 Model (with probability confidence), amplitude, population profile, and residuals obtained by DLRN analysis.
 ![DLRN graphic window2](figures/figure3_DLRN.png)
 
-Table of the kinetic time constants constant for each prediction. The solution name can be found on name window of the figure before.
+Table of the kinetic time constants constant for each prediction. 
 ![DLRN graphic window3](figures/figure4_DLRN.png)
 
+The solution name can be found on name window of the figure before.
 
 # Collaboration
 

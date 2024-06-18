@@ -37,8 +37,6 @@ After these three steps, a Graphic window will open and a few options can be sel
 6.	(Optional) Is it possible to test the DLRN performance using the “Test DLRN” button. This allows the user to try a few ground truth data to check the performance. 
 7.	Click the “Data Analysis” button to start the analysis and obtain the DLRN analysis results. This can be done only after the compulsory steps (1–5) have been completed.
 
-![output!](figures/GUI_APP_V2_output.png)
-
 
 # Collaboration
 

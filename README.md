@@ -3,7 +3,7 @@
 The Deep Learning Reaction Network (DLRN) App is a user-friendly graphical interface that can be used to analyze
 time-resolved spectroscopy and agarose gel data sets.
 
-![logo](figures/logo.jpeg)
+![logo](figures/logo.jpg)
 
 # Requirements
 

@@ -45,8 +45,7 @@ After clicking Data Analysis, new windows will be open. These new windows will s
 One-hot encoding solution from DLRN. it gives you an idea of the confidence of the output.
 ![DLRN graphic window1](figures/figure2_DLRN.png)
 
-Model prediction (with probability confidence), amplitude prediction, population profile of the prediction, 
-and residuals obtained by DLRN analysis.
+Model (with probability confidence), amplitude, population profile, and residuals obtained by DLRN analysis.
 ![DLRN graphic window2](figures/figure3_DLRN.png)
 
 Table of the kinetic time constants constant for each prediction. The solution name can be found on name window of the figure before.

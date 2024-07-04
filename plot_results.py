@@ -115,22 +115,3 @@ def plotting_results_test(model_binary, pre_model, ind, top_3_indices, pre_amp, 
     plt.show(block=False)
 
     plt.show()
-
-
-"""to remove
-
-    #plot time constants predictions
-    axs[1].plot(pre_tau[0,:], marker='o', linestyle='--', markersize=4 ,linewidth=2, color= "red", label="pred.")
-
-    axs[1].legend(loc='upper right', fontsize=8)  # Set legend for the subplot
-    axs[1].set_title("tau prediction", fontsize=12)
-
-    axs[1].set_xlabel('tau', fontsize=10)  # Set xlabel for the subplot
-    axs[1].set_ylabel('tau value', fontsize=10)  # Set ylabel for the subplot
-    tick_locations = [0, 1, 2, 3, 4, 5, 6]
-    tick_labels = [r'$\tau$1', r'$\tau$2', r'$\tau$3', r'$\tau$4', r'$\tau$5', r'$\tau$6', r'$\tau$7']
-    axs[1].set_xticks(tick_locations)
-    axs[1].set_xticklabels(tick_labels)
-    axs[1].set_xlim(0, 6)
-    axs[1].set_ylim(0, 620)
-"""

@@ -18,10 +18,7 @@ DLRN app was created using:
 
 To use DLRN app, please follow this  protocol.
 
-1)start with cloning the repository or download all the files in the repository. It can take a few minutes for the Large files.
-
-     git clone git@github.com:mem3nto0/DLRN_App.git
-
+1)start with downloading all the files in the repository. It can take a few minutes for the Large files.
 2)unzip the pre-trained model files
 3)start the GUI using the command "python3 DLRN_GUI.py" in the prompt or using VScode.
 

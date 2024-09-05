@@ -1,11 +1,10 @@
 import matplotlib.pyplot as plt
 from draw_model import model_drawing
 import numpy as np
-import Global_variable
 
 def plotting_results(model_binary, pre_model, ind, top_3_indices, pre_amp, Time, Kinetic_signal, data, Fit, score):
 
-    wl = Global_variable.wl
+    wl = np.arange(0,256,1)
 
     fig, axs = plt.subplots(1, 4,figsize=(10, 3), dpi=150, num="Solution {}".format(ind+1))
 

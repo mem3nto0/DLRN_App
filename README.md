@@ -53,6 +53,6 @@ Table of the kinetic time constants constant for each prediction.
 
 # Collaboration
 
-This work is a collaboration partnership with the group of Prof. Dr. Susanne Gerber, Uni Medical Center, Mainz.
+This work is a collaboration partnership with the group of Prof. Dr. Susanne Gerber, Uni Medical Center, Mainz. https://csg.uni-mainz.de/group-member/susanne-gerber/
 
 
